@@ -1,4 +1,4 @@
-# Cortex XDR Endpoint Verification for BeyondCorp Enterprise
+## Cortex XDR Endpoint Verification for BeyondCorp Enterprise
 
 Cortex XDR and Cortex Data Lake are cloud services provided by Palo Alto Networks and are running in Google Cloud. Cortex XDR manages XDR agents that are deployed to users endpoints. Cortex XDR Endpoint Verification is deployed as Cloud Functions to your Google Cloud project. Cortex XDR Endpoint Verification calculates the health score for XDR Endpoints based on the severity and the number of the endpoint alerts. Once you enable Cortex XDR Endpoint Verification as a Device Partner’s Service at your Google Admin Site, you will be able to create Access Level at Access Context Manager (ACM) based on Cortex XDR Endpoint Status including if the endpoint is a XDR managed device, if the endpoint is quarantined and the minimum level for the endpoint health score. This enable you to control the application access in IAP using the Cortex XDR Endpoint Access Level you created in ACM.
 
@@ -10,9 +10,9 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 </p>
 
 
-## Prerequistes 
+### Prerequistes 
 
-### Google Cloud Platform
+#### Google Cloud Platform
 
 * Valid GCP billing account
 * Existing GCP project to host the deployment
@@ -20,32 +20,32 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 * Corporate E-Mail address
 * Customer ID
 
-### Palo Alto Networks
+#### Palo Alto Networks
 * Cortex XDR License
 * Cortex XDR Key
 * Cortex XDR Key ID
 
 </br>
 
-## Deployment Procedure
-### 1. Download Build
+### Deployment Procedure
+#### 1. Download Build
 
-#### Step 1a. In your GCP project, open Google Cloud Shell.
+##### Step 1a. In your GCP project, open Google Cloud Shell.
 <p align="center">
 <img src="https://github.com/wwce/cortex_xdr_bce/blob/bcc3fc0504abf40c2054b7cd2c6bb6264c645f0e/images/cloud_shell.png" width="75%" height="75%" >
 </p>
 
-#### Step 1b. Clone the build to your Cloud Shell instance.
+##### Step 1b. Clone the build to your Cloud Shell instance.
 ```
 $ git clone https://github.com/wwce/terraform
 ```
 
-### 2. Stage Build
-#### Step 2a. Open terraform.tfvars
+#### 2. Stage Build
+##### Step 2a. Open terraform.tfvars
 ```
 $ nano terraform.tfvars
 ```
-#### Step 2b. Configure Environment Variables
+##### Step 2b. Configure Environment Variables
 Uncomment the environment variables (lines 5-13) and set values to match your deployment.  The table below describes the expected values for each variable. 
 
 | variable              | value                                                                                                                                                    |
@@ -70,7 +70,7 @@ Your terraform.tfvars file should look like the image below before proceeding. S
 </p>
 
 
-### 3. Deploy Build
+#### 3. Deploy Build
 ```
 $ terraform init
 $ terraform apply
@@ -78,7 +78,7 @@ $ terraform apply
 
 </br>
 
-## 4. Destroy Build (optional)
+#### 4. Destroy Build (optional)
 The following command will remove all resources created during the build.  
 ```
 $ terraform destroy
