@@ -37,7 +37,7 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 
 ##### Step 1b. Clone the build to your Cloud Shell instance.
 ```
-$ git clone https://github.com/wwce/terraform
+$ git clone https://github.com/wwce/cortex_xdr_bce
 ```
 
 #### 2. Stage Build
@@ -75,7 +75,6 @@ Your terraform.tfvars file should look like the image below before proceeding. S
 $ terraform init
 $ terraform apply
 ```
-
 </br>
 
 #### 4. Destroy Build (optional)
