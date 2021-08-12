@@ -6,7 +6,7 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 
 </br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/wwce/cortex_xdr_bce/main/images/diagram.png">
+<img src="https://github.com/wwce/cortex_xdr_bce/blob/460867aabd159becb93253555dfdd5c6564195fe/images/diagram.png">
 </p>
 
 
@@ -66,7 +66,7 @@ Your terraform.tfvars file should look like the image below before proceeding. S
 </br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/wwce/cortex_xdr_bce/main/images/tfvars.png" width="75%" height="75%" >
+<img src="https://github.com/wwce/cortex_xdr_bce/blob/460867aabd159becb93253555dfdd5c6564195fe/images/tfvars.png" width="75%" height="75%" >
 </p>
 
 
