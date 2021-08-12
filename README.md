@@ -6,7 +6,7 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 
 </br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/wwce/terraform/master/gcp/adv_peering_2fw_2spoke_common/images/diagram.png">
+<img src="https://raw.githubusercontent.com/wwce/cortex_xdr_bce/main/images/diagram.png">
 </p>
 
 
@@ -32,7 +32,7 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 
 #### Step 1a. In your GCP project, open Google Cloud Shell.
 <p align="center">
-<img src="https://raw.githubusercontent.com/wwce/terraform/master/gcp/adv_peering_2fw_2spoke_common/images/cloud_shell.png" width="75%" height="75%" >
+<img src="https://raw.githubusercontent.com/wwce/cortex_xdr_bce/main/images/cloud_shell.png" width="75%" height="75%" >
 </p>
 
 #### Step 1b. Clone the build to your Cloud Shell instance.
@@ -66,7 +66,7 @@ Your terraform.tfvars file should look like the image below before proceeding. S
 </br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/wwce/terraform/master/gcp/adv_peering_2fw_2spoke_common/images/tfvars.png" width="75%" height="75%" >
+<img src="https://raw.githubusercontent.com/wwce/cortex_xdr_bce/main/images/tfvars.png" width="75%" height="75%" >
 </p>
 
 
