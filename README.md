@@ -24,7 +24,7 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 * Cortex XDR License
 * Cortex XDR Key
 * Cortex XDR Key ID
- 
+
 </br>
 
 ## Deployment Procedure
@@ -32,7 +32,7 @@ Please see the [**Deployment Guide**](https://google.com) for more information.
 
 #### Step 1a. In your GCP project, open Google Cloud Shell.
 <p align="center">
-<img src="https://raw.githubusercontent.com/wwce/cortex_xdr_bce/main/images/cloud_shell.png" width="75%" height="75%" >
+<img src="https://github.com/wwce/cortex_xdr_bce/blob/bcc3fc0504abf40c2054b7cd2c6bb6264c645f0e/images/cloud_shell.png" width="75%" height="75%" >
 </p>
 
 #### Step 1b. Clone the build to your Cloud Shell instance.
