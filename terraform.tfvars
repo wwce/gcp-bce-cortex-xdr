@@ -5,18 +5,19 @@
 # project_id            = ""
 # xdr_key               = 
 # xdr_key_id            = ""
+# xdr_base_url          = ""
 # customer_id           = ""
 # customer_email        = ""
 # partner_id            = ""
 # service_account_email = ""
 # global_prefix         = ""
 # project_auth_file     = "" #  Only required if deploying outside of your GCP project's cloud shell.  If true, Uncomment line 4 in main.tf 
+# region                = "us-east4"
+# scheduler_time_zone   = "America/New_York"
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Common variables (do not need to be configured by end-user)
 
-region                             = "us-east4"
-scheduler_time_zone                = "America/New_York"
 update_xdr_info_prefix             = "update_xdr_info"
 update_xdr_info_memory             = 256
 update_xdr_info_entry_point        = "hello_pubsub"

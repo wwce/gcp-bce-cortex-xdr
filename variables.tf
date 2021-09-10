@@ -9,7 +9,6 @@ variable "project_auth_file" {
 
 variable "region" {
   description = "GCP deployment region"
-  default     = "us-east4"
 }
 
 variable "xdr_key" {
@@ -18,6 +17,10 @@ variable "xdr_key" {
 
 variable "xdr_key_id" {
   description = "Enter your Cortex XDR key ID"
+}
+
+variable "xdr_base_url" {
+  description = "Enter your Cortex XDR base URL"
 }
 
 variable "partner_id" {
@@ -36,6 +39,8 @@ variable "global_prefix" {
   description = "Enter a naming prefix.  This prefix will be prepended to all resources created."
 }
 
-variable "scheduler_time_zone" {}
+variable "scheduler_time_zone" {
+  description = "Enter a valid time-zone for cloud scheduler (i.e. America/New_York)"
+}
 
 variable "service_account_email" {}
