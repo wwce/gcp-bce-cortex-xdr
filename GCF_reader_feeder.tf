@@ -45,7 +45,9 @@ resource "google_cloudfunctions_function" "reader_feeder" {
   environment_variables = {
     XDR_KEY    = var.xdr_key,
     XDR_KEY_ID = var.xdr_key_id,
-    BASE_URL   = var.xdr_base_url
+    BASE_URL   = var.xdr_base_url,
+    TOPIC      = google_pubsub_topic.id_mapping.name,
+    PROJECT_ID = var.project_id
   }
 
   labels = {

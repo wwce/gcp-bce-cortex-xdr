@@ -18,8 +18,6 @@ resource "google_spanner_database" "spanner" {
   deletion_protection = var.spanner_deletion_protection
   
   ddl = [
-    "CREATE TABLE endpoint_mapping (xdr_agent_id STRING(1024),bce_device_id STRING(1024),) PRIMARY KEY(xdr_agent_id)",
-    "CREATE TABLE health_score (xdr_agent_id STRING(1024),health_score STRING(1024),) PRIMARY KEY(xdr_agent_id)",
     "CREATE TABLE xdr_bce (xdr_id STRING(1024),bce_id STRING(1024),) PRIMARY KEY(bce_id)",
     "CREATE TABLE xdr_info (xdr_id STRING(1024),health_score STRING(1024),is_isolated STRING(1024),endpoint_status STRING(1024),) PRIMARY KEY(xdr_id)"
   ]

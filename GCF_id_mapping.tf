@@ -46,6 +46,7 @@ resource "google_cloudfunctions_function" "id_mapping" {
   environment_variables = {
     PROJECT_ID = var.project_id,
     TIMEOUT    = 20,
+    RETRY      = 3,
     XDR_KEY    = var.xdr_key,
     XDR_KEY_ID = var.xdr_key_id,
     BASE_URL   = var.xdr_base_url

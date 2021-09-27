@@ -50,6 +50,7 @@ resource "google_cloudfunctions_function" "upload_xdr_info_to_bce" {
     PARTNER_ID  = var.partner_id,
     PROJECT_ID  = var.project_id,
     BASE_URL   = var.xdr_base_url
+    CRED_JSON  = var.cred_json
   }
 
 
