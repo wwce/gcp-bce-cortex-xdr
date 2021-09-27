@@ -1,5 +1,4 @@
 variable spanner_prefix {}
-variable spanner_config {}
 variable spanner_node_count {}
 variable spanner_deletion_protection {}
 
@@ -8,7 +7,7 @@ variable spanner_deletion_protection {}
 resource "google_spanner_instance" "spanner" {
   display_name = "xdr-bce-db"
   name         = "xdr-bce-db"
-  config       = var.spanner_config
+  config       = "regional-${var.region}"
   num_nodes    = var.spanner_node_count
 }
 

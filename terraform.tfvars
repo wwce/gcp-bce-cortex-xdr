@@ -50,7 +50,6 @@ id_mapping_timeout                 = 60
 id_mapping_repo                    = "https://storage.googleapis.com/gcf-upload-us-central1-195de627-f166-4bf8-bd20-f8d725d760bd/b5b6bff1-27ac-47c3-8a5e-4721f8494e26.zip"
 
 spanner_prefix                     = "xdr-bce"
-spanner_config                     = "regional-us-central1"
 spanner_node_count                 = 1
 spanner_deletion_protection        = false
 
