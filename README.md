@@ -2,7 +2,7 @@
 
 Cortex XDR and Cortex Data Lake are cloud services provided by Palo Alto Networks and are running in Google Cloud. Cortex XDR manages XDR agents that are deployed to users endpoints. Cortex XDR Endpoint Verification is deployed as Cloud Functions to your Google Cloud project. Cortex XDR Endpoint Verification calculates the health score for XDR Endpoints based on the severity and the number of the endpoint alerts. Once you enable Cortex XDR Endpoint Verification as a Device Partner’s Service at your Google Admin Site, you will be able to create Access Level at Access Context Manager (ACM) based on Cortex XDR Endpoint Status including if the endpoint is a XDR managed device, if the endpoint is quarantined and the minimum level for the endpoint health score. This enable you to control the application access in IAP using the Cortex XDR Endpoint Access Level you created in ACM.
 
-Please see the [**Deployment Guide**](https://google.com) for more information.
+Please see the [**Deployment Guide**](https://docs.google.com/document/d/1WTmg61OhOGK4CG_ZYXdHXNDK9_H8_R6TlfuJTFKv9uw/edit#) for more information.
 
 </br>
 <p align="center">
