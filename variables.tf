@@ -23,10 +23,6 @@ variable "xdr_base_url" {
   description = "Enter your Cortex XDR base URL"
 }
 
-variable "partner_id" {
-  description = "Enter the partner ID"
-}
-
 variable "customer_id" {
   description = "Enter your customer ID"
 }

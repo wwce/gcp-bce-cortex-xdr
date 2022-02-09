@@ -8,7 +8,6 @@
 # xdr_base_url          = "https://<your_url>.xdr.us.paloaltonetworks.com/public_api/v1/"
 # customer_id           = ""
 # customer_email        = "your_email@email.com"
-# partner_id            = ""
 # service_account_email = ""
 # project_auth_file     = "" #  Only required if deploying outside of your GCP project's cloud shell.  If true, Uncomment line 4 in main.tf 
 # region                = "us-central1"

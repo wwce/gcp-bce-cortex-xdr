@@ -54,7 +54,6 @@ Uncomment the environment variables (lines 5-13) and set values to match your de
 | xdr_key_id            | Your Cortex XDR key ID.                                                                                                                                  |
 | customer_id           | Your GCP customer ID                                                                                                                                     |
 | customer_email        | An email address.                                                                                                                                        |
-| partner_id            | Your Partner ID.                                                                                                                                         |
 | service_account_email | A GCP service account email.                                                                                                                             |
 | global_prefix         | A name to prepend to all cloud resources created (i.e. <global_prefix>my-cloud-function)                                                                 |
 | project_auth_file     | Only required if you are executing the build outside the deployment project's cloud shell.  You must also uncomment ``line 4`` in main.tf                |

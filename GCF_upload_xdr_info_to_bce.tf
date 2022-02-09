@@ -47,7 +47,7 @@ resource "google_cloudfunctions_function" "upload_xdr_info_to_bce" {
   environment_variables = {
     CUSTOMER_ID = var.customer_id,
     EMAIL       = var.customer_email,
-    PARTNER_ID  = var.partner_id,
+    PARTNER_ID  = "742dbfbb-8f6b-4c69-96ed-54c6b9e5e95f",
     PROJECT_ID  = var.project_id,
     BASE_URL   = var.xdr_base_url
     CRED_JSON  = var.cred_json
